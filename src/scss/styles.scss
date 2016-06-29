@@ -1,0 +1,30 @@
+$ukip-purple: #B3009D;
+$ukip-yellow: #EFE600;
+
+body {
+	text-align: center;
+	color: $ukip-purple;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 48pt;
+}
+
+.carousel__thumbs {
+	display: block;
+}
+
+.carousel__thumb {
+	width: 100px;
+	border: 1px $ukip-purple solid;
+}
+
+.carousel__thumb:hover {
+	border-color: $ukip-yellow;
+	cursor: pointer;
+}
+
+.carousel__image {
+	width: 620px;
+}
