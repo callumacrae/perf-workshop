@@ -4,22 +4,28 @@
 	<meta charset="UTF-8">
 	<title>Performance workshop demo</title>
 
-	<script src="public/assets/bundle.js"></script>
 	<link rel="stylesheet" href="public/assets/styles.css">
 </head>
 <body>
+
+	<div style="display: none">
+		<img class="carousel__image" src="public/assets/imgs/farage-1.jpg">
+	</div>
+
 	<h1>FARAGE</h1>
 	<div class="carousel">
 		<div class="carousel__thumbs">
-			<img class="carousel__thumb" src="src/imgs/farage-1.jpg">
-			<img class="carousel__thumb" src="src/imgs/farage-2.jpg">
-			<img class="carousel__thumb" src="src/imgs/farage-3.jpg">
-			<img class="carousel__thumb" src="src/imgs/farage-4.jpg">
-			<img class="carousel__thumb" src="src/imgs/farage-5.jpg">
-			<img class="carousel__thumb" src="src/imgs/farage-6.jpg">
+			<img class="carousel__thumb" src="public/assets/thumbs/farage-1.jpg" data-src="public/assets/imgs/farage-1.jpg">
+			<img class="carousel__thumb" src="public/assets/thumbs/farage-2.jpg" data-src="public/assets/imgs/farage-2.jpg">
+			<img class="carousel__thumb" src="public/assets/thumbs/farage-3.jpg" data-src="public/assets/imgs/farage-3.jpg">
+			<img class="carousel__thumb" src="public/assets/thumbs/farage-4.jpg" data-src="public/assets/imgs/farage-4.jpg">
+			<img class="carousel__thumb" src="public/assets/thumbs/farage-5.jpg" data-src="public/assets/imgs/farage-5.jpg">
+			<img class="carousel__thumb" src="public/assets/thumbs/farage-6.jpg" data-src="public/assets/imgs/farage-6.jpg">
 		</div>
 
-		<img class="carousel__image" src="src/imgs/farage-1.jpg">
+		<img class="carousel__image" src="public/assets/imgs/farage-1.jpg">
 	</div>
+
+	<script src="public/assets/bundle.js"></script>
 </body>
 </html>

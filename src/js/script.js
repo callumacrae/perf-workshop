@@ -1,7 +1,8 @@
-var $ = require('jquery');
+var thumbs = document.querySelectorAll('.carousel__thumb');
+var main = document.querySelector('.carousel__image');
 
-$(function () {
-	$('.carousel__thumb').on('click', function () {
-		$('.carousel__image').attr('src', $(this).attr('src'));
+for (var i = 0; i < thumbs.length; i++) {
+	thumbs[i].addEventListener('click', function () {
+		main.src = this.dataset.src;
 	});
-});
+}
